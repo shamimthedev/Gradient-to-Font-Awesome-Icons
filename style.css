@@ -6,16 +6,16 @@ body {
   margin: 0;
   font-family: "Oswald", sans-serif;
 
-  background: #00d2ff; /* fallback for old browsers */
+  background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #3a7bd5,
-    #00d2ff
+    #434343,
+    #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #3a7bd5,
-    #00d2ff
+    #434343,
+    #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   height: 100%;
@@ -23,10 +23,8 @@ body {
 
 .container {
   color: white;
-
   width: 80%;
   margin: 10vh auto;
-
   padding: 2em;
   text-align: center;
 }
@@ -57,35 +55,24 @@ h1 {
   font-size: 28px;
   padding: 16px;
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
 
+.font-icon1 {
   background: linear-gradient(#ec008c, #fc6767);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .font-icon2 {
-  font-size: 28px;
-  padding: 16px;
-  border-radius: 50%;
-
   background: linear-gradient(#ffe259, #ffa751);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .font-icon3 {
-  font-size: 28px;
-  padding: 16px;
-  border-radius: 50%;
-
   background: linear-gradient(#009fff, #ec2f4b);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
